@@ -6,6 +6,7 @@ public class Application {
         System.out.println("Hello world!!!");///ddasdsadasdasdasdasda
      int a = 0;
      int b = a + 1;
+        System.out.println(b);
     }
 
 
