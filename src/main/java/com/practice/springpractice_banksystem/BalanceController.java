@@ -22,7 +22,7 @@ public class BalanceController {
         return BankService.addMoney(fastBalance.getTo(), fastBalance.getAmount());
     }
     @PostMapping("/transfer")
-    public BigDecimal transferMoney(@RequestBody FastBalance fastBalance) {
+    public void transferMoney(@RequestBody FastBalance fastBalance) {
         BankService.transferMoney(fastBalance);
     }
 
